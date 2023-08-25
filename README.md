@@ -27,3 +27,16 @@ php artisan db:seed
 6. **Iniciar servidor**:
 php artisan serve
 Acceder en `http://127.0.0.1:8000` o ruta especefica en caso de usar laragon.
+
+7.**Inicio de Sesión**:
+user: 1@1.com
+pass: password
+
+8.**Añadir nuevas preguntas**:
+Desde PHPMYADMIN
+- Tabla questions->insertar->text:[pregunta]
+- Tabla answer->insertar
+.-question_id->seleccionar pregunta correspondiente
+.-is_correct->[0:no][1:si]
+-Luego Actualizar la la url del sistema(f5)
+
