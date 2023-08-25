@@ -12,6 +12,7 @@ Aplicación QuizzApp en Laravel 8 para prueba técnica.
 cd quizapp (ruta del proyecto)
 
 2. **Configurar**:
+- Crear base de datos en este caso quizapp en phpmyadmin o con create: table quizapp; use quizapp;
 - Renombrar `.env.example` a `.env`
 - Configurar conexión a la base de datos en `.env`
  
